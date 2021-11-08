@@ -1,0 +1,74 @@
+/*背景写真*/
+.aaa{
+    background-image: url(question.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 54vw;
+    margin-right: 65px;
+}
+/*ボタンの位置*/
+.ul {
+    padding-top: 450px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.ua {
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .ub {
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+  .content {
+    width: 400px;
+    height: 100px;
+  }
+  
+  .inner {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+
+/*以下class名link_buttonのデザイン*/
+.link_button {
+    font-weight: bold;/*太字に*/
+    text-decoration: none;/*下線消す*/
+    background-color: lightsalmon;
+    color:black;/*文字を白に*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 100px;/*角を丸くする*/
+    font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+    font-size: 80px;
+  }
+  /*以下カーソルを当てたとき*/
+  .link_button:hover {
+    background: silver;/*背景色をシルバーに*/
+    text-decoration: none;/*下線を消す*/
+  }
+  
+  /*以下訪問済みのデザイン*/
+  .link_button:visited {
+    color: gray;/*文字をグレイに*/
+  }
